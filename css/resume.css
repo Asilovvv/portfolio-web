@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #2140ad;
+}
+
+
+#header{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: #074d97;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+
+    padding: 10px 20px;
+}    
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    text-decoration-color: #77AEE9;
+}
+.button{
+    background-color: #77AEE9;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 8px 23px;
+    border-radius: 30px;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    transform: translateY(-50%);
+    text-align: right;
+}
+.small-header {
+    background-color: #0a1e55; /* Используем темно-синий цвет фона для заголовка */
+    color: white; /* Белый цвет текста для контраста */
+    text-align: center; /* Центрирование текста */
+    padding: 10px 0; /* Добавляем немного отступа сверху и снизу */
+    font-size: 20px; /* Устанавливаем размер шрифта */
+    letter-spacing: 1px; /* Добавляем небольшой интервал между буквами */
+}
+li:hover {
+    color: white;
+    transform: scale(1.15);
+    text-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+#resume {
+    justify-content: center;
+    padding: 100px;
+    margin: auto;
+    border-radius: 40px;
+}
+div img {
+    width: 750px;
+    box-shadow: 0px 0px 50px 10px  black;
+    }
+li:hover {
+    color: white ;
+    transform: scale(1.15);
+    text-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+#portfolio {
+    font-style: italic;
+    font-size: 20px;
+    color: white;
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: #074d97;
+}
+#portfolio {
+    font-style: italic;
+    font-size: 20px;
+    color: white;
+}
+
+img {
+    margin-top: auto;
+    margin-left: 240px;
+}li:hover {
+    color: white;
+    transform: scale(1.15);
+    text-shadow: 5px 5px 10px rgb(212, 18, 18);
+}
